@@ -8,7 +8,7 @@ Currently this gem includes gems such as:
 4. [rspec-rails](https://github.com/rspec/rspec-rails)
 
 ## Usage
-1. Add `gem 'gr1d99-testkit'` to your `Gemfile`
+1. Add `gem 'gr1d99-testkit'` to your `Gemfile` under `development` and `test` group or under `test` group alone.
 2. Run `$ bundle`
 3. Follow the correct procedure of setting up any of the above included gems.
    
@@ -23,23 +23,6 @@ Currently this gem includes gems such as:
     create  spec/spec_helper.rb
     create  spec/rails_helper.rb
    ```
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'gr1d99-testkit'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install gr1d99-testkit
-```
 
 ## Contributing
 1. Fork project
