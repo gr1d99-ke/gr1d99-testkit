@@ -11,8 +11,7 @@ Gem::Specification.new do |spec|
   spec.email       = ["gideon.kimutai.kim@gmail.com"]
   spec.homepage    = "https://github.com/gr1d99-ke/gr1d99-testkit"
   spec.summary     = "A minimal toolkit that includes a number of libraries for testing your rails application."
-  spec.description = "A minimal toolkit that includes a number of libraries for testing your rails application.
-                      The libraries included are: `rspec-rails."
+  spec.description = "A minimal toolkit that includes a number of libraries for testing your rails application."
   spec.license     = "MIT"
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
